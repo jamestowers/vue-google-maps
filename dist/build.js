@@ -19541,7 +19541,7 @@ function install(Vue, options) {
 
   var defaultResizeBus = new Vue();
 
-  var oms = new _overlappingMarkerSpiderfier2.default(map, options);
+  //const oms = new OverlappingMarkerSpiderfier(map, options);
 
   Vue.$gmapDefaultResizeBus = defaultResizeBus;
   Vue.mixin({
